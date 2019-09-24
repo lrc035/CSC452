@@ -31,6 +31,8 @@ spmd
     end
 end
 
-t = toc;
+runtime = toc;
 d = f(4);
 delete(hp);
+
+fprintf('Runtime - %7.4f seconds \n', runtime)

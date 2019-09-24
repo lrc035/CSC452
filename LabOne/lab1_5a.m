@@ -18,4 +18,5 @@ dB = distributed(B);
 tic;
 dc = sqrt(sum((dB-dA).^2,2));
 d = gather(dc);
-t = toc
+runtime = toc;
+fprintf('Runtime - %7.4f seconds \n', runtime)

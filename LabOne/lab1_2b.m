@@ -1,5 +1,5 @@
 poolSizes = 1:8;
-powers = [3,5,7];
+powers = [1,3,5,7];
 runTime = zeros(size(powers,2),2);
 
 hp = gcp('nocreate');
@@ -18,8 +18,10 @@ hold on
 
 for poolSize = poolSizes 
     hp = parpool(poolSize);
-   
     counter = 1;
+    
+    fprintf('\nPool Size - %d \n', poolSize)
+    fprintf('\tPowers\t\tRun time(s) \n')
     for power = powers
         np = 1*10.^power;
    
@@ -37,8 +39,10 @@ for poolSize = poolSizes
             c(i) = sqrt(c(i));
         end
         runTime(counter,2) = toc;
+        fprintf('\t%d\t\t\t%8.4f\n',power, runTime(counter,2))
         counter = counter + 1;
     end
+    fprintf('\n')
     
     plot(runTime(:,1),runTime(:,2), '-o', 'DisplayName',[num2str(poolSize), ' Workers']);
     

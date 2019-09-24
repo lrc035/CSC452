@@ -25,7 +25,8 @@ spmd
     ca = gcat(c,1,1);
 end
 
-t = toc;
+runtime = toc;
 c1 = ca{1};
-
 delete(hp);
+
+fprintf('Runtime - %7.4f seconds \n', runtime)

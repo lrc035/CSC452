@@ -1,9 +1,11 @@
-powers = [3,5,7];
+powers = [1,3,5,7];
 runTime = zeros(size(powers,1),2);
 
+fprintf('\tPowers\t\tRun time(s) \n')
 counter = 1;
 for power = powers
    np = 1*10.^power;
+   
    
    runTime(counter,1) = np;
    nd = 2;
@@ -19,6 +21,7 @@ for power = powers
         c(i) = sqrt(c(i));
     end
     runTime(counter,2) = toc;
+    fprintf('\t%d\t\t\t%8.4f\n',power, runTime(counter,2))
     counter = counter + 1;
 end
 
