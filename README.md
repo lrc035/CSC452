@@ -1,7 +1,7 @@
 ---
-## Lindsay Cason
-## 10255091
-## CSC452
+### Lindsay Cason
+### 10255091
+### CSC452
 ---
 
 ### _Lab One_
