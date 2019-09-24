@@ -1,0 +1,275 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    697628.qb3
+Username:  lrc035
+Group:     latechusers
+Date:      23-Sep-2019 23:37
+Node:      qb045 (73878)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb045
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb045 23:37:46
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 23-Sep-2019 23:37:46
+------------------------------------------------------
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.556344) 64-bit (glnxa64)
+                               March 27, 2017
+
+
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 1 workers.
+
+Pool Size - 1
+        Powers          Run time(s)
+        1                 0.2082
+        3                 0.0523
+        5                 0.0708
+        7                 2.1149
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 2 workers.
+
+Pool Size - 2
+        Powers          Run time(s)
+        1                 0.1408
+        3                 0.0478
+        5                 0.0537
+        7                 1.3459
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 3 workers.
+
+Pool Size - 3
+        Powers          Run time(s)
+        1                 0.1372
+        3                 0.0527
+        5                 0.0537
+        7                 1.0563
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 4 workers.
+
+Pool Size - 4
+        Powers          Run time(s)
+        1                 0.1456
+        3                 0.0527
+        5                 0.0513
+        7                 1.1559
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 5 workers.
+
+Pool Size - 5
+        Powers          Run time(s)
+        1                 0.1492
+        3                 0.0536
+        5                 0.0541
+        7                 1.1304
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 6 workers.
+
+Pool Size - 6
+        Powers          Run time(s)
+        1                 0.1523
+        3                 0.0570
+        5                 0.0570
+        7                 1.2262
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 7 workers.
+
+Pool Size - 7
+        Powers          Run time(s)
+        1                 0.1524
+        3                 0.0547
+        5                 0.0583
+        7                 1.2112
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 8 workers.
+
+Pool Size - 8
+        Powers          Run time(s)
+        1                 0.1610
+        3                 0.0596
+        5                 0.0654
+        7                 1.1879
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 9 workers.
+
+Pool Size - 9
+        Powers          Run time(s)
+        1                 0.1791
+        3                 0.0616
+        5                 0.0716
+        7                 1.4435
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 10 workers.
+
+Pool Size - 10
+        Powers          Run time(s)
+        1                 0.1679
+        3                 0.0675
+        5                 0.0783
+        7                 1.1600
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 11 workers.
+
+Pool Size - 11
+        Powers          Run time(s)
+        1                 0.1680
+        3                 0.1196
+        5                 0.0875
+        7                 1.1492
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 12 workers.
+
+Pool Size - 12
+        Powers          Run time(s)
+        1                 0.1826
+        3                 0.1164
+        5                 0.0848
+        7                 1.1681
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 13 workers.
+
+Pool Size - 13
+        Powers          Run time(s)
+        1                 0.1982
+        3                 0.1225
+        5                 0.1035
+        7                 1.0656
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 14 workers.
+
+Pool Size - 14
+        Powers          Run time(s)
+        1                 0.1928
+        3                 0.1266
+        5                 0.1033
+        7                 1.0559
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 15 workers.
+
+Pool Size - 15
+        Powers          Run time(s)
+        1                 0.1938
+        3                 0.1296
+        5                 0.1081
+        7                 1.1467
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 16 workers.
+
+Pool Size - 16
+        Powers          Run time(s)
+        1                 0.1969
+        3                 0.1312
+        5                 0.1107
+        7                 1.1073
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 17 workers.
+
+Pool Size - 17
+        Powers          Run time(s)
+        1                 0.2062
+        3                 0.1339
+        5                 0.1275
+        7                 1.1020
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 18 workers.
+
+Pool Size - 18
+        Powers          Run time(s)
+        1                 0.1978
+        3                 0.1403
+        5                 0.1323
+        7                 1.1190
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 19 workers.
+
+Pool Size - 19
+        Powers          Run time(s)
+        1                 0.1649
+        3                 0.1541
+        5                 0.1429
+        7                 1.3180
+
+Parallel pool using the 'local' profile is shutting down.
+Starting parallel pool (parpool) using the 'local' profile ...
+connected to 20 workers.
+
+Pool Size - 20
+        Powers          Run time(s)
+        1                 0.2084
+        3                 0.1663
+        5                 0.1418
+        7                 1.0828
+
+Parallel pool using the 'local' profile is shutting down.
+>> ------------------------------------------------------
+Running PBS epilogue script    - 23-Sep-2019 23:43:29
+------------------------------------------------------
+Checking node qb045 (MS)
+Checking node qb045 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 23-Sep-2019 23:43:31
+------------------------------------------------------
+Exit Status:     0
+Job ID:          697628.qb3
+Username:        lrc035
+Group:           latechusers
+Job Name:        lab1_3d
+Session Id:      73877
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:30:22,mem=8457820kb,vmem=63443640kb,walltime=00:05:44
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb045
+Process id:      84327
+------------------------------------------------------

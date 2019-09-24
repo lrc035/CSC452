@@ -1,0 +1,60 @@
+--------------------------------------
+Running PBS prologue script
+--------------------------------------
+User and Job Data:
+--------------------------------------
+Job ID:    697627.qb3
+Username:  lrc035
+Group:     latechusers
+Date:      23-Sep-2019 23:35
+Node:      qb045 (72527)
+--------------------------------------
+PBS has allocated the following nodes:
+
+qb045
+
+A total of 20 processors on 1 nodes allocated
+---------------------------------------------
+Check nodes and clean them of stray processes
+---------------------------------------------
+Checking node qb045 23:35:09
+Done clearing all the allocated nodes
+------------------------------------------------------
+Concluding PBS prologue script - 23-Sep-2019 23:35:09
+------------------------------------------------------
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.556344) 64-bit (glnxa64)
+                               March 27, 2017
+
+
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+
+        Powers          Run Time (s)
+        1                 0.0018
+        3                 0.0002
+        5                 0.0080
+        7                 0.5589
+>> ------------------------------------------------------
+Running PBS epilogue script    - 23-Sep-2019 23:35:18
+------------------------------------------------------
+Checking node qb045 (MS)
+Checking node qb045 ok
+------------------------------------------------------
+Concluding PBS epilogue script - 23-Sep-2019 23:35:20
+------------------------------------------------------
+Exit Status:     0
+Job ID:          697627.qb3
+Username:        lrc035
+Group:           latechusers
+Job Name:        lab1_3c
+Session Id:      72526
+Resource Limits: ncpus=1,neednodes=1:ppn=20,nodes=1:ppn=20,walltime=01:00:00
+Resources Used:  cput=00:00:05,mem=0kb,vmem=0kb,walltime=00:00:11
+Queue Used:      workq
+Account String:  loni_cyen405
+Node:            qb045
+Process id:      73236
+------------------------------------------------------
