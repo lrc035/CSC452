@@ -1,5 +1,5 @@
 numLabs = 8;
-np = 1e6;
+np = 1e7;
 nd = 2;
 
 hp = gcp('nocreate');
